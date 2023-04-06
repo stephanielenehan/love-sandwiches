@@ -18,7 +18,24 @@ data = sales.get_all_values()
 
 print(data)
 
+# code used below to checl API was working
+# sales = SHEET.worksheet('sales')
+# data = sales.get_all_values()
+# print(data)
 
-# Your code goes here.
+
+def get_sales_data():
+    """
+    Get sales figures input from the user
+    """
+# A Python function description goes between triple double quotes like this,  
+# and should always be inside the function,  right underneath the function name. 
+
+    print("Please enter sales data from the last market")
+    print("Data should be six numbersm separated by a comma")
+    print("Example: 10,20,30,40,50,60!")
+
+    
+
 # You can delete these comments, but do not change the name of this file
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
